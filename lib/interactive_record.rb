@@ -53,4 +53,8 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
 
+  def self.values_for_insert
+    values = []
+    
+  end
 end
